@@ -9,4 +9,4 @@ ADD start.apache.sh /start.apache.sh
 EXPOSE 80
 EXPOSE 443
 
-ENTRYPOINT ["/start.apache.sh"]
+CMD ["/start.apache.sh"]
